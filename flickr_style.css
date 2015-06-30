@@ -1,0 +1,53 @@
+.flickr-widget-title{
+    margin-bottom: 10px;
+}
+.flickr-widget-title h1{
+    font-size: 14px;
+}
+.flickr-widget-description p{
+    font-size: 12px;
+}
+.flickr-widget-description p{
+    margin-bottom: 5px;
+}
+.wp_flickr_widget{
+    padding: 0px;
+}
+#grid .grid-wrapper{
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#grid .mix {
+    width: 150px;
+    height: 150px;
+    vertical-align: top;
+    margin: 10px 10px 0px 0;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+/*#grid .mix .thumbnail {
+    border: 2px thin #F7F7F7;
+    padding: 0;
+    border-radius: 0;
+}*/
+#grid .mix .overlay {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    opacity: 0;
+    top:0;
+    display: inline-block;
+    background-color: #3498db;
+}
+#grid .mix .overlay:hover {
+    opacity: .8;
+}
+#grid .mix .overlay i {
+    font-size: 2em;
+    opacity: 1;
+    color: #fff;
+    padding-top: 40%;
+}
