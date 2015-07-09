@@ -158,7 +158,7 @@ class wp_flickr_widget extends WP_Widget {
 		<!-- API Key: Text Input-->
 		<p>
 			<div for="<?php echo $this->get_field_id( 'api_key' ); ?>"><?php _e('API Key:', 'example'); ?></div>
- 			<div for="<?php echo $this->get_field_id( 'api_key' ); ?>"><?php _e('Please use the following link to obtain an Access Token if you don&apos;t already have one: ', 'example'); ?><a class="access_token_link" href="mailto:api@foko.co">Get Access Token</a></div>
+ 			<div for="<?php echo $this->get_field_id( 'api_key' ); ?>"><?php _e('Please use the following link to obtain an API Key if you don&apos;t already have one: ', 'example'); ?><a class="access_token_link" href="https://www.flickr.com/services/api/misc.api_keys.html">Get Access Token</a></div>
 			<input id="<?php echo $this->get_field_id( 'api_key' ); ?>" name="<?php echo $this->get_field_name( 'api_key' ); ?>" value="<?php echo $instance['api_key']; ?>" style="width:100%;" />
 		</p>
 
@@ -184,11 +184,6 @@ class wp_flickr_widget extends WP_Widget {
 
 		<p>
 			<div style="font-weight:900;" for="<?php echo $this->get_field_id( 'default_display' ); ?>"><?php _e('This widget by default displays the most recent photos from across your company.', 'example'); ?></div> 
-		</p>
-
-		<p>
-			<input class="checkbox" type="checkbox" <?php checked( (bool) $instance['show_likes'], true ); ?> id="<?php echo $this->get_field_id( 'show_likes' ); ?>" name="<?php echo $this->get_field_name( 'show_likes' ); ?>" /> 
-			<label for="<?php echo $this->get_field_id( 'show_likes' ); ?>"><?php _e('Show the number of likes', 'example'); ?></label>
 		</p>
 
 	<?php
