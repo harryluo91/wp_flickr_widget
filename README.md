@@ -9,7 +9,7 @@ Foko PhotoFeed WordPress Widget
 **Before you start:** 
 <p>
 If you do not already have an API Key for Flickr, please use the following link to obtain one:
-<a href="https://www.flickr.com/services/api/misc.api_keys.html" target="_top">api@foko.co</a></p>
+<a href="https://www.flickr.com/services/api/misc.api_keys.html" target="_top">Flickr API</a></p>
 
 **Installtion Steps:**
 
