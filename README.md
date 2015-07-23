@@ -3,7 +3,7 @@ Foko PhotoFeed WordPress Widget
 
 **IMPORTANT:** You need to install a self hosted version of wordpress in order to install this plugin (e.g. use wordpress.org instead of wordpress.com). Please update to the latest version of your browser in order to experience the full functionality of this widget.
 
-#####Send questions and suggestions to <a href="mailto:support@foko.co" target="_top">harryluo91@gmail.com</a>
+#####Send questions and suggestions to <a href="mailto:haoluo91@gmail.com" target="_top">haoluo91@gmail.com</a>
 -------------------------------
 
 **Before you start:** 
